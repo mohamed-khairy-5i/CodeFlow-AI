@@ -47,5 +47,4 @@ Connect the repository, leave the included configuration intact, and trigger a d
 
 ## Notes
 
-The landing page uses generated, project-hosted visual assets for the hero, dashboard showcase, supporting texture, and brand symbol. There are no stock photos, third-party app logos, secrets, or runtime API requests in the source.
-
+The landing page includes compressed WebP visual assets in `client/public/assets/` for the hero, dashboard showcase, supporting texture, and brand symbol. These are emitted directly in `dist/public/assets/`, so they load correctly from static hosts such as Netlify without relying on development-only storage routes. There are no stock photos, third-party app logos, secrets, or runtime API requests in the source.

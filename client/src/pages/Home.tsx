@@ -83,7 +83,7 @@ function BrandMark({ compact = false }: { compact?: boolean }) {
   return (
     <a className="brand-mark" href="#top" aria-label="العودة إلى بداية صفحة CodeFlow AI">
       <img
-        src="/manus-storage/codeflow-symbol_cee3b4b5.png"
+        src="/assets/codeflow-symbol.webp"
         alt="رمز CodeFlow AI"
         className="brand-symbol"
       />
@@ -152,7 +152,7 @@ export default function Home() {
           <div className="hero-visual reveal-item" aria-label="تصور لواجهة إنشاء أدوات رقمية">
             <img
               className="hero-art"
-              src="/manus-storage/codeflow-hero-abstract_2b46ea71.jpg"
+              src="/assets/codeflow-hero-abstract.webp"
               alt="مسار ضوئي تجريدي بنفسجي وسماوي يرمز لتحويل الأفكار إلى أدوات رقمية"
             />
             <div className="product-window" dir="ltr">
@@ -262,7 +262,7 @@ export default function Home() {
           </div>
           <div className="showcase-visual reveal-item">
             <div className="showcase-art-frame">
-              <img src="/manus-storage/codeflow-dashboard-art_69c9ea4b.jpg" alt="تصور فني لواجهة لوحة تحكم ومنشئ أدوات مدعوم بالذكاء الاصطناعي" />
+              <img src="/assets/codeflow-dashboard-art.webp" alt="تصور فني لواجهة لوحة تحكم ومنشئ أدوات مدعوم بالذكاء الاصطناعي" />
               <div className="showcase-scan" aria-hidden="true" />
             </div>
             <div className="showcase-badge"><span className="badge-spark"><Sparkles size={15} /></span><span>اقتراحات ذكية<br /><b>تظهر في سياق عملك</b></span></div>
@@ -290,7 +290,7 @@ export default function Home() {
       </section>
 
       <section id="start" className="final-cta-section" aria-labelledby="cta-title">
-        <img src="/manus-storage/codeflow-grid-detail_59f92402.jpg" alt="" className="cta-texture" aria-hidden="true" />
+        <img src="/assets/codeflow-grid-detail.webp" alt="" className="cta-texture" aria-hidden="true" />
         <div className="cta-violet-arc" aria-hidden="true" />
         <div className="shell-container final-cta-inner reveal-item">
           <p className="section-kicker section-kicker--light"><span>05</span> الخطوة الأولى لا تحتاج إلى تعقيد</p>
